@@ -1,0 +1,15 @@
+{
+  "name": "syahid-al-irfan-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static portfolio of Syahid Al Irfan, AI engineer and medical imaging researcher.",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node --check app.js && node --check scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
